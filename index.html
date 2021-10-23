@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Rock, Scissor and Paper</title>
+</head>
+<body>
+    <h1>Rock, Scissor and Paper</h1>
+    <section id="main">
+        <section id="electionsSection">
+            <div id="buttons">
+                <img src="./src/rock.png" id="btnRock" onclick="gameSet('rock')"></img>
+                <img src="./src/scissor.png" id="btnScissor" onclick="gameSet('scissor')"></img>
+                <img src="./src/paper.png" id="btnPaper" onclick="gameSet('paper')"></img>
+            </div>
+            <div id='elections'></div>
+            <div id="message"></div>
+        </section>
+        <table id='tableScore'></table>
+        
+    </section>
+    <script src="./script/app.js"></script>
+
+</body>
+</html>
